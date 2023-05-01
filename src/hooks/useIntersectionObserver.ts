@@ -37,6 +37,10 @@ const useIntersectionObserver = () => {
     });
     currentElementRef.current &&
       observerRef.current.observe(currentElementRef.current);
+
+    return () => {
+      observerRef.current?.disconnect();
+    };
   }, []);
 
   return {
