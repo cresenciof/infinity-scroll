@@ -1,0 +1,29 @@
+{
+  "name": "infinity-scroll",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2"
+  },
+  "keywords": [
+    "vite",
+    "react",
+    "typescript",
+    "infinity-scroll",
+    "react-infinity-scroll"
+  ],
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

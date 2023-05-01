@@ -1,0 +1,17 @@
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header {
+  background-color: white;
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
